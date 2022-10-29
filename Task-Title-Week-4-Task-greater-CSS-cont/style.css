@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color:hsl(0, 0%, 95%);
+ }
+  
+main{
+    width:50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box1{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 2em;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.box1 h2{
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.box1 p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.box1 button{
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    color: #fcf9fc;
+    font-size: 13px;
+    background: hsl(31, 77%, 52%);
+    padding: 10px 30px 10px 30px;
+    border: solid #fafafa 2px;
+    text-decoration: none;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%) ;
+    padding: 2em;
+}
+
+.box2 h2{
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.box2 p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.box2 button{
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    color: #fcf9fc;
+    font-size: 13px;
+    background: hsl(184, 100%, 22%);
+    padding: 10px 30px 10px 30px;
+    border: solid #fafafa 2px;
+    text-decoration: none;
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;  
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.box3 h2{
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.box3 p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.box3 button{
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    color: #fcf9fc;
+    font-size: 13px;
+    background:hsl(179, 100%, 13%);
+    padding: 10px 30px 10px 30px;
+    border: solid #fafafa 2px;
+    text-decoration: none;
+}
